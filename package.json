@@ -1,11 +1,11 @@
 {
-  "name": "test_sum",
+  "name": "test_symmetric",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
-  },
+  }, 
 
   "author": "",
   "license": "ISC",
