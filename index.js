@@ -1,12 +1,8 @@
+function sum(arr){
+    let sum=0;
+    for(num of arr)
+    sum+=Number(num);
 
-function createCalculator() {
-    let value = 0;
-	
-    return {
-        add: function(num) { value += Number(num); },
-        subtract: function(num) { value -= Number(num); },
-        get: function() { return value; }
-    }
+    return sum
 }
-
-module.exports = { createCalculator }
+module.exports={sum};

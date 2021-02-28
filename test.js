@@ -1,7 +1,7 @@
 let expect = require("chai").expect;
-let createCalculator = require("./index").createCalculator;
-describe("Total:", function () {
+let sum = require("./index").sum;
+describe("sum(arr) - sum array of numbers", function () {
     it("should return 5", function () {
-        expect(createCalculator((2+3),(10-5),5)).to.be.equal(5);
+        expect(sum(['2','3'])).to.be.equal(5);
     });
 });
